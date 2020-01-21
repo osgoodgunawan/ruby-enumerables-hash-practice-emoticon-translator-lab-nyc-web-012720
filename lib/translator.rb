@@ -6,9 +6,11 @@ require "pry"
 def load_library(file)
   data=YAML.load_file (file)
   new_hash={"get_meaning":{},"get_emoticon":{}}
-  # "japanese_emoticon":"meaning"   
+  # get_meaning
+  #"japanese_emoticon":"meaning"   
   # "☜(⌒▽⌒)☞" => "angel"  
-
+  
+  #get_emoticon
   # "english_emoticon":japanese_emoticon
   # O:)" => "☜(⌒▽⌒)☞"
                 
